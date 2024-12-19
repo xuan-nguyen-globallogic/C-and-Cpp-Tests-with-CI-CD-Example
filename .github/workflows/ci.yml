@@ -17,7 +17,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y gcc lcov libncurses5-dev
+        sudo apt-get install -y gcc g++ lcov libncurses5-dev
 
     - name: Build project
       run: |
