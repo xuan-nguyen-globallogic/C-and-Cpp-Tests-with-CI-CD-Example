@@ -66,7 +66,8 @@ int test_and() {
 int test_or() {
 	if (op_or(3,4) != (3|4)) 
 		return E_FAIL;
-	
+
+
 	return S_OK;
 }
 
